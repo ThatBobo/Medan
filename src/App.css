@@ -1,29 +1,21 @@
+/* Center the app and give it breathing room */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
+  font-family: system-ui, sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
+/* Utility card style (optional, useful later) */
 .card {
-  padding: 2em;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #f5f5f5;
+  margin: 1rem 0;
 }
 
+/* Subtle text style */
 .read-the-docs {
-  color: #888;
+  color: #666;
 }
