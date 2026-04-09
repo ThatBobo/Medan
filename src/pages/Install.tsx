@@ -57,12 +57,6 @@ export default function Install() {
 {`curl -fsSL https://medan-org.github.io/install.sh | sh`}
       </pre>
 
-      <h2>npm (Coming Soon)</h2>
-      <p>Medan will soon be installable globally via npm:</p>
-      <pre style={codeStyle}>
-{`npm install -g medan`}
-      </pre>
-
       <h2>Direct Binary Downloads (Coming Soon)</h2>
       <p>Prebuilt binaries for all platforms will be available here:</p>
       <pre style={codeStyle}>
